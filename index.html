@@ -4,11 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <header>
       <a href="#">
-        <img src="./assets/images/Logo.png" alt="logo" />
+        <img src="./assets/images/Logo2.svg" alt="logo" />
       </a>
       <ul>
         <li><a href="">Main</a></li>
@@ -40,21 +47,21 @@
         </tr>
         <tr>
           <th>Theory</th>
-          <td><img src="./assets/images/Check.png" alt="check" /></td>
-          <td><img src="./assets/images/Check.png" alt="check" /></td>
-          <td><img src="./assets/images/Check.png" alt="check" /></td>
+          <td><img src="./assets/images/Check.svg" alt="check" /></td>
+          <td><img src="./assets/images/Check.svg" alt="check" /></td>
+          <td><img src="./assets/images/Check.svg" alt="check" /></td>
         </tr>
         <tr>
           <th>Practice</th>
-          <td><img src="./assets/images/Close.png" alt="" /></td>
-          <td><img src="./assets/images/Check.png" alt="" /></td>
-          <td><img src="./assets/images/Check.png" alt="" /></td>
+          <td><img src="./assets/images/Close.svg" alt="" /></td>
+          <td><img src="./assets/images/Check.svg" alt="" /></td>
+          <td><img src="./assets/images/Check.svg" alt="" /></td>
         </tr>
         <tr>
           <th>Code review</th>
-          <td><img src="./assets/images/Close.png" alt="" /></td>
-          <td><img src="./assets/images/Close.png" alt="" /></td>
-          <td><img src="./assets/images/Check.png" alt="" /></td>
+          <td><img src="./assets/images/Close.svg" alt="" /></td>
+          <td><img src="./assets/images/Close.svg" alt="" /></td>
+          <td><img src="./assets/images/Check.svg" alt="" /></td>
         </tr>
         <tr>
           <th>Have questions?</th>
@@ -78,12 +85,12 @@
         <li>Free forever for core features</li>
         <li>14-day trial of premium features</li>
       </ul>
-      <form action="">
+      <form>
         <input type="text" placeholder="Full name" />
         <input type="email" placeholder="Email" />
         <input type="password" placeholder="Password" />
         <input type="date" />
-        <select name="" id="">
+        <select name="sel" id="sel">
           <option selected disabled value="">Country</option>
           <option value="">Belarus</option>
           <option value="">Latvia</option>
@@ -91,26 +98,31 @@
           <option value="">Germany</option>
           <option value="">Spain</option>
         </select>
-        <label for="">
-          <input type="radio" name="stack" />
+        <label for="front">
+          <input id="front" type="radio" name="stack" />
           Frontened
         </label>
-        <label for="">
-          <input type="radio" name="stack" />
+        <label for="back">
+          <input id="back" type="radio" name="stack" />
           Backend
         </label>
-        <label for=""><input type="checkbox" name="html" checked />HTML</label>
-        <label for=""><input type="checkbox" name="css" checked />CSS</label>
-        <label for=""
-          ><input type="checkbox" name="react" checked />React</label
+        <label for="html"
+          ><input id="html" type="checkbox" name="html" checked />HTML</label
         >
-        <label for=""
-          ><input type="checkbox" name="sc" checked />Styled components</label
+        <label for="css"
+          ><input id="css" type="checkbox" name="css" checked />CSS</label
+        >
+        <label for="react"
+          ><input id="react" type="checkbox" name="react" checked />React</label
+        >
+        <label for="sc"
+          ><input id="sc" type="checkbox" name="sc" checked />Styled
+          components</label
         >
       </form>
       <textarea
-        name=""
-        id=""
+        name="text"
+        id="text"
         placeholder="Write something about yourself"
       ></textarea>
       <input type="submit" />
