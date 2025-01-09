@@ -32,3 +32,34 @@ button {
   text-transform: uppercase;
   color: #fff;
 }
+.main-title {
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 68px;
+  color: #363940;
+  margin-bottom: 30px;
+}
+.text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 137%;
+  color: #95a1bb;
+  margin-bottom: 40px;
+}
+.button {
+  width: 152px;
+  height: 51px;
+  border-radius: 4px;
+  font-weight: 500;
+  background: #0a61f7;
+  font-size: 14px;
+  line-height: 140%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+}
+.main {
+}
+.main-img {
+}
