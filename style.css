@@ -19,3 +19,16 @@ button {
   border: none;
   background-color: transparent;
 }
+.header {
+  background: #0a61f7;
+  padding: 14px 0;
+}
+
+.menu-line {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 167%;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  color: #fff;
+}
