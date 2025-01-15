@@ -77,6 +77,10 @@ button {
 }
 
 /* ================ Стили для 1-й секции ================ */
+.main {
+  display: flex;
+}
+
 .main-info {
   display: flex;
 }
@@ -89,7 +93,7 @@ button {
   margin-bottom: 30px;
 }
 
-.main .text {
+.main.text {
   margin-bottom: 40px;
 }
 
