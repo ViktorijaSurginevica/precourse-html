@@ -77,12 +77,20 @@ button {
 }
 
 /* ================ Стили для 1-й секции ================ */
-.main {
+.main-wrapper {
   display: flex;
 }
 
 .main-info {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 800px;
+}
+
+.main-img {
+  align-self: flex-end;
 }
 
 .main-title {
@@ -95,6 +103,7 @@ button {
 
 .main.text {
   margin-bottom: 40px;
+  max-width: 380px;
 }
 
 .button {
