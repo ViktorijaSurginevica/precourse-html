@@ -116,6 +116,12 @@ button {
 
 /* ================ Стили для 2-й секции ================ */
 
+.rates-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .rates-section {
   background-color: #f9fafc;
   padding: 100px 0;
